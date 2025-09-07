@@ -5,8 +5,15 @@ This project focuses on data cleaning and exploratory analysis using Microsoft E
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/issue%20log.jpg)
 
 # Steps
-1. Changing disaster type into some categories
-Tool used: IF function and pivot table
+1. Checking and removing any duplicates
+   Tool used: IF functions to show duplicated row count. Or directly click "remove duplicates".
+   =IF(COUNTIFS(A:A;A3;B:B;B3;C:C;C3;...)>1;"Duplicate";"Unique")
+
+   Outputs and Insights:
+   - from 28.773 records of disasters, 329 duplicate records. 28.444 unique values remain.
+  
+2. Changing disaster type into some categories
+   Tool used: IF function and pivot table
    - Klimatologi (cuaca ekstrem, kekeringan)
    - Hidrologi (banjir)
    - Meteorologi (karhutla, tanah longsor, puting beliung)
@@ -19,15 +26,13 @@ Output and Insights
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/pivot_disaster_type.jpg)
 - Most disasters in Indonesia between 2018-2024 are hydrological, dominated by floods.
 
-2. Changing number of columns into ranges
-Tool used: VLOOKUP
-=VLOOKUP(N2;tabel_referensi!$A$2:$B$5;2;TRUE)
+3. Changing number of columns into ranges
+   Tool used: VLOOKUP
+   =VLOOKUP(N2;tabel_referensi!$A$2:$B$5;2;TRUE)
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/tabel_referensi_vlookup.jpg)
 
 Output and Insights:
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/before-after_number%20into%20range.jpg)
 
-4. Checking and removing any duplicates
 
-330 duplicate records  
 

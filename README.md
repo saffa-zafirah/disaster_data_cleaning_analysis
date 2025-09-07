@@ -10,4 +10,5 @@ This project focuses on data cleaning and exploratory analysis using Microsoft E
    - Hidrologi (banjir)
    - Meteorologi (karhutla, tanah longsor, puting beliung)
    - Geofisik (erupsi gunung api, letusan, gempa bumi, tsunami, gelombang pasang)
+
 =IF(OR(E2="Cuaca Ekstrem";E2="Kekeringan");"Klimatologi";IF(OR(E2="Banjir");"Hidrologi";IF(OR(E2="Kebakaran Hutan Dan Lahan";E2="Tanah Longsor";E2="Putting Beliung");"Meteorologi";"Geofisik")))

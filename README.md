@@ -31,8 +31,8 @@ Output and Insights
 3. Changing number of columns into ranges
 
    Tool used: VLOOKUP
-   
    =VLOOKUP(N2;tabel_referensi!$A$2:$B$5;2;TRUE)
+   
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/tabel_referensi_vlookup.jpg)
 
 Output and Insights:

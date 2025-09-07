@@ -14,13 +14,19 @@ Tool used: IF function and pivot table
 
 =IF(OR(E2="Cuaca Ekstrem";E2="Kekeringan");"Klimatologi";IF(OR(E2="Banjir");"Hidrologi";IF(OR(E2="Kebakaran Hutan Dan Lahan";E2="Tanah Longsor";E2="Putting Beliung");"Meteorologi";"Geofisik")))
 
-Insights
+Output and Insights
+
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/pivot_disaster_type.jpg)
 
 2. Changing number of columns into ranges
 Tool used: VLOOKUP
+=VLOOKUP(N2;tabel_referensi!$A$2:$B$5;2;TRUE)
+![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/tabel_referensi_vlookup.jpg)
 
-3. Checking and removing any duplicates
+Output and Insights:
+![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/before-after_number%20into%20range.jpg)
+
+4. Checking and removing any duplicates
 
 330 duplicate records  
 

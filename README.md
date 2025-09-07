@@ -10,6 +10,8 @@ This project focuses on data cleaning and exploratory analysis using Microsoft E
    Tool used: IF functions to show duplicated row count. Or directly click "remove duplicates".
    =IF(COUNTIFS(A:A;A3;B:B;B3;C:C;C3;...)>1;"Duplicate";"Unique")
 
+![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/showing_duplicates.jpg)
+
    Outputs and Insights:
    - from 28.773 records of disasters, 329 duplicate records. 28.444 unique values remain.
   

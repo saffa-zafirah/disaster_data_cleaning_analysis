@@ -5,10 +5,22 @@ This project focuses on data cleaning and exploratory analysis using Microsoft E
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/issue%20log.jpg)
 
 # Steps
-1. disaster type turning into some categories
+1. Changing disaster type into some categories
+Tool used: IF function and pivot table
    - Klimatologi (cuaca ekstrem, kekeringan)
    - Hidrologi (banjir)
    - Meteorologi (karhutla, tanah longsor, puting beliung)
    - Geofisik (erupsi gunung api, letusan, gempa bumi, tsunami, gelombang pasang)
 
 =IF(OR(E2="Cuaca Ekstrem";E2="Kekeringan");"Klimatologi";IF(OR(E2="Banjir");"Hidrologi";IF(OR(E2="Kebakaran Hutan Dan Lahan";E2="Tanah Longsor";E2="Putting Beliung");"Meteorologi";"Geofisik")))
+
+Insights
+![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/pivot_disaster_type.jpg)
+
+2. Changing number of columns into ranges
+Tool used: VLOOKUP
+
+3. Checking and removing any duplicates
+
+330 duplicate records  
+

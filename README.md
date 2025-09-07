@@ -17,6 +17,7 @@ Tool used: IF function and pivot table
 Output and Insights
 
 ![Alt_text](https://github.com/saffa-zafirah/disaster_data_cleaning_analysis/blob/main/pivot_disaster_type.jpg)
+- Most disasters in Indonesia between 2018-2024 are hydrological, dominated by floods.
 
 2. Changing number of columns into ranges
 Tool used: VLOOKUP
